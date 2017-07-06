@@ -23,8 +23,8 @@ def export_table(table):
         r'DRIVER={SQL Server};'
         r'SERVER=127.0.0.1\parkdb;'
         r'DATABASE=master;'
-        r'UID=sa;'
-        r'PWD=squirrel')
+        r'UID=id;'
+        r'PWD=passwd')
 
     cursor = cnxn.cursor()
 
