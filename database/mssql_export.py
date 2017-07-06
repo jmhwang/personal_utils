@@ -21,7 +21,7 @@ def export_table(table):
 
     cnxn = pyodbc.connect(
         r'DRIVER={SQL Server};'
-        r'SERVER=127.0.0.1\parkdb;'
+        r'SERVER=127.0.0.1\instance;'
         r'DATABASE=master;'
         r'UID=id;'
         r'PWD=passwd')
